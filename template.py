@@ -4,7 +4,7 @@ import logging
 
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s :')
 
-package_name = "deepClassfier"
+package_name = "deepClassifier"
 
 list_of_files = [
     ".github/workflows/.geetkeep",
