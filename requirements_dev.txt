@@ -5,6 +5,11 @@ notebook
 numpy
 matplotlib
 seaborn
+python-box
+pyYAML
+tqdm
+ensure
+joblib
 -e .
 
 
