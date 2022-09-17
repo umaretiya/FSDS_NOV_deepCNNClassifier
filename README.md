@@ -14,3 +14,10 @@
 9. run tox for testting a packages
 10. Update the dvc.yaml 
 11. run "dvc.repro" for running all stages in pipeline
+
+- Create new project in git repo
+- Prepare kanban board
+
+[Git repo](https://github.com/c17hawke/FSDS_NOV_deepCNNClassifier)
+
+[image](https://raw.githubusercontent.com/c17hawke/FSDS_NOV_deepCNNClassifier/main/docs/images/Data%20Ingestion%402x%20(1).png)
