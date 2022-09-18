@@ -1,7 +1,28 @@
 --- 
+name: "CV application"
+
+on:
+  push:
+    pull_request: 
+      branches: 
+        - main
+    push: 
+      branches: 
+        - main
+
+permissions: 
+  contents: read
+
 jobs: 
   build: 
     runs-on: "${{ matrix.os }}"
+    strategy: 
+      matrix: 
+        os: 
+          - ubuntu-latest
+          - windows-latest
+        python-version: 
+          - "3.9"
     steps: 
       - 
         uses: actions/checkout@v3
@@ -19,20 +40,3 @@ jobs:
       - 
         name: "Test with tox"
         run: tox
-    strategy: 
-      matrix: 
-        os: 
-          - ubuntu-latest
-          - windows-latest
-        python-version: 
-          - "3.9"
-name: "CV application"
-permissions: 
-  contents: read
-true: 
-  pull_request: 
-    branches: 
-      - main
-  push: 
-    branches: 
-      - main
