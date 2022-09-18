@@ -16,7 +16,7 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-latest, windows-latest] 
-        python-version: ["3.9"]
+        python-version: ["3.8"]
 
     steps:
     - uses: actions/checkout@v3
@@ -31,3 +31,4 @@ jobs:
         pip install -r requirements.txt
     - name: Test with tox
       run: tox
+
