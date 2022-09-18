@@ -10,6 +10,8 @@ pyYAML
 tqdm
 ensure
 joblib
+sicpy
+types-PyYAML
 -e .
 
 

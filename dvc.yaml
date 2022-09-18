@@ -1,1 +1,8 @@
-key: val
+stages:
+  data_ingestion:
+    cmd: python 
+    deps:
+      -
+      - configs/config.yaml
+    outs:
+      - artifacts/data_ingestion/PetImages
