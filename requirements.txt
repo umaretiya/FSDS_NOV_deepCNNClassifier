@@ -11,5 +11,5 @@ tqdm
 ensure
 joblib
 types-PyYAML
-scipy
+scipy>=1.9.1
 -e .
