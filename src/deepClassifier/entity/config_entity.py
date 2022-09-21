@@ -21,6 +21,7 @@ class PrepareBaseModelConfig:
     params_weights: str
     params_classes: int
 
+
 @dataclass(frozen=True)
 class PrepareCallbacksConfig:
     root_dir: Path
