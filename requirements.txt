@@ -12,4 +12,5 @@ ensure
 joblib
 types-PyYAML
 scipy>=1.9.1
+
 -e .
