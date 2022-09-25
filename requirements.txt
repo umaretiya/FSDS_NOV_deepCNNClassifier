@@ -12,5 +12,6 @@ ensure
 joblib
 types-PyYAML
 scipy>=1.9.1
+mlflow==1.26.1
 
 -e .

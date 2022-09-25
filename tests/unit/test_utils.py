@@ -5,8 +5,8 @@ from box import ConfigBox
 from ensure.main import EnsureError
 
 yaml_file = [
-    "tests/data/empty.yaml",
     "tests/data/demo.yaml",
+    "tests/data/empty.yaml",
 ]
 
 def test_read_yaml_empty():
